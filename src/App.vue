@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/father1">父传子</router-link>
+      <router-link to="/father2">子传父</router-link>
+      <router-link to="/father3">父子双向绑定</router-link>
+      <router-link to="/father4">兄弟组件A</router-link>
+      <router-link to="/father5">兄弟组件B</router-link>
     </div>
     <router-view/>
   </div>
@@ -19,6 +22,8 @@
 
 #nav {
   padding: 30px;
+  display: flex;
+  flex-direction:column;
 
   a {
     font-weight: bold;

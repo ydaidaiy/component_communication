@@ -17,6 +17,31 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },
+  {
+    path: '/father1',
+    name: 'father1',
+    component: () => import(/* webpackChunkName: "about" */ '../views/父传子/father.vue')
+  },
+  {
+    path: '/father2',
+    name: 'father2',
+    component: () => import(/* webpackChunkName: "about" */ '../views/子传父/father.vue')
+  },
+  {
+    path: '/father3',
+    name: 'father3',
+    component: () => import(/* webpackChunkName: "about" */ '../views/父子双向绑定/father.vue')
+  },
+  {
+    path: '/father4',
+    name: 'father4',
+    component: () => import(/* webpackChunkName: "about" */ '../views/兄弟_跨组件/a.vue')
+  },
+  {
+    path: '/father5',
+    name: 'father5',
+    component: () => import(/* webpackChunkName: "about" */ '../views/兄弟_跨组件/b.vue')
   }
 ]
 

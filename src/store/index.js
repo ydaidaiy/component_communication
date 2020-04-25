@@ -3,11 +3,23 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+const state = {
+  userInfo: {
+    id: '',
+    name: '',
+    age: ''
+  }
+}
+
+const mutations = {
+  UPDATE_USER (state, info) {
+    state.userInfo = info
+  }
+}
+
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
+  state,
+  mutations,
   actions: {
   },
   modules: {
