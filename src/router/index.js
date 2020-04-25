@@ -36,12 +36,7 @@ const routes = [
   {
     path: '/father4',
     name: 'father4',
-    component: () => import(/* webpackChunkName: "about" */ '../views/兄弟_跨组件/a.vue')
-  },
-  {
-    path: '/father5',
-    name: 'father5',
-    component: () => import(/* webpackChunkName: "about" */ '../views/兄弟_跨组件/b.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/兄弟_跨组件/c.vue')
   }
 ]
 

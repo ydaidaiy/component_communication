@@ -2,7 +2,7 @@
   <div class="box">
     <div>这是组件B</div>
     <div>A组件的值：{{value}}</div>
-    <div>vuex的值：{{user.name }}{{user.age}}</div>
+    <!-- <div>vuex的值：{{user.name }}{{user.age}}</div> -->
   </div>
 </template>
 

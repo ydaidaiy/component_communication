@@ -1,7 +1,7 @@
 <template>
   <div class="box">
-    <div @click="change">这是组件A-----点击发数据</div>
-    <div @click="change_x">这是组件A-----点击跟新vuex数据</div>
+    <div @click="change" class="box">这是组件A-----点击发数据</div>
+    <!-- <div @click="change_x" class="box">这是组件A-----点击跟新vuex数据</div> -->
   </div>
 </template>
 
@@ -21,4 +21,10 @@ export default {
 </script>
 
 <style>
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #f49;
+  margin: 20px auto;
+}
 </style>

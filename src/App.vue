@@ -5,7 +5,6 @@
       <router-link to="/father2">子传父</router-link>
       <router-link to="/father3">父子双向绑定</router-link>
       <router-link to="/father4">兄弟组件A</router-link>
-      <router-link to="/father5">兄弟组件B</router-link>
     </div>
     <router-view/>
   </div>
