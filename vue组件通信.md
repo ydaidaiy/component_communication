@@ -1,4 +1,4 @@
-![](C:\Users\Administrator\Desktop\vue组件通信\1715ef66f88e72cb.png)
+![](C:\Users\呆呆\Desktop\component_communication\src\assets\1715ef66f88e72cb.png)
 
 -------先上代码---仓库地址  https://github.com/ydaidaiy/component_communication.git 
 
