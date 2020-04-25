@@ -1,6 +1,8 @@
 <template>
-  <div class="son">
-    <div @click="on_click" style="color:#f99">我是子组件--点击传给father数据</div>
+  <div class="son" @click="on_click">
+    <div >我是子组件--点击传给father数据</div>
+    <div >name:{{name}}</div>
+    <div >moner:{{moner}}</div>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="father">
     <div>父组件----{{value}}</div>
-    <div @click="change">父组件修改值</div>
+    <div @click="change" style="color:red">父组件修改值</div>
     <son :value.sync="value" class="box" ></son>
   </div>
 </template>

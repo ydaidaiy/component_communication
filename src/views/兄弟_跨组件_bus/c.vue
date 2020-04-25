@@ -1,7 +1,7 @@
 <template>
-  <div class="box">
-    <boxa></boxa>
-    <boxb></boxb>
+  <div >
+    <boxa class="box"></boxa>
+    <boxb class="box"></boxb>
   </div>
 </template>
 
@@ -14,6 +14,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #f49;
+  margin: 20px auto;
+}
 </style>

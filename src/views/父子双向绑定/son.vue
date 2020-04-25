@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="son" @click="hidePanel">子组件修改值</div>
+    <div class="son" @click="hidePanel" style="color:red">子组件修改值</div>
     <div>父组件传来的值{{value}}</div>
   </div>
 </template>

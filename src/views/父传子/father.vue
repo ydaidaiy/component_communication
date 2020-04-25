@@ -1,7 +1,8 @@
 <template>
   <div class="father">
     <div>props + v-bind</div>
-    <son :sonValue="value"></son>
+    <div class="box">父组件值：1000</div>
+    <son :sonValue="value" class="box"></son>
   </div>
 </template>
 
@@ -17,5 +18,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #f49;
+  margin: 20px auto;
+}
 </style>

@@ -16,10 +16,4 @@ export default {
 </script>
 
 <style>
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: #f49;
-  margin: 20px auto;
-}
 </style>
