@@ -1,8 +1,8 @@
 <template>
   <div class="father">
     <div>父组件----{{value}}</div>
-    <div @click="change">修改</div>
-    <son :value.sync="value"  style="margin:20px"></son>
+    <div @click="change">父组件修改值</div>
+    <son :value.sync="value" class="box" ></son>
   </div>
 </template>
 
@@ -25,5 +25,10 @@ export default {
 </script>
 
 <style>
-
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: #f99;
+}
 </style>
