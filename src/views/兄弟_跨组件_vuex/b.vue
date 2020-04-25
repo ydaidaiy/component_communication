@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <div>vuex的值：{{user.name }}---{{user.age}}岁</div>
+    <div>vuex的值：{{user.name }}---{{user.age}}</div>
   </div>
 </template>
 
