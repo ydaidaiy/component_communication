@@ -1,8 +1,11 @@
 <template>
   <div class="father">
     <div>props + v-bind</div>
-    <div class="box">父组件值：1000</div>
+    <div class="box">父组件值：1</div>
     <son :sonValue="value" class="box"></son>
+    <div class="code">
+
+    </div>
   </div>
 </template>
 
