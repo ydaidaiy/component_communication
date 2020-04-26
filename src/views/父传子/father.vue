@@ -12,7 +12,7 @@ export default {
   components: { son },
   data () {
     return {
-      value: '父组件值：1000'
+      value: '父组件值：1'
     }
   }
 }
