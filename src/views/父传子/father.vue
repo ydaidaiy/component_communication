@@ -1,11 +1,17 @@
+<!--
+ * @Author: dull_
+ * @Date: 2020-05-07 14:38:48
+ * @LastEditTime: 2020-05-22 15:08:21
+ * @LastEditors: dull_
+ * @Description:
+ * @FilePath: \component_communication\src\views\父传子\father.vue
+ * @
+-->
 <template>
   <div class="father">
     <div>props + v-bind</div>
-    <div class="box">父组件值：1</div>
+    <div>父组件值：1</div>
     <son :sonValue="value" class="box"></son>
-    <div class="code">
-
-    </div>
   </div>
 </template>
 
@@ -22,10 +28,5 @@ export default {
 </script>
 
 <style scoped>
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: #f49;
-  margin: 20px auto;
-}
+
 </style>

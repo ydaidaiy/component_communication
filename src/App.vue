@@ -1,3 +1,12 @@
+<!--
+ * @Author: dull_
+ * @Date: 2020-05-07 14:38:48
+ * @LastEditTime: 2020-05-22 15:06:05
+ * @LastEditors: dull_
+ * @Description:
+ * @FilePath: \component_communication\src\App.vue
+ * @
+-->
 <template>
   <div id="app">
     <div id="nav">
@@ -6,6 +15,7 @@
       <router-link to="/father3">父子双向绑定</router-link>
       <router-link to="/father4">兄弟组件 bus</router-link>
       <router-link to="/father5">兄弟组件 vuex</router-link>
+      <router-link to="/">mixin</router-link>
     </div>
     <router-view/>
   </div>
@@ -23,11 +33,11 @@
 #nav {
   padding: 30px;
   display: flex;
-  flex-direction:column;
 
   a {
     font-weight: bold;
     color: #2c3e50;
+    margin-left: 30px;
 
     &.router-link-exact-active {
       color: #42b983;
